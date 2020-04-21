@@ -1,3 +1,10 @@
+# Reference 
+https://www.youtube.com/watch?v=CjkKRbtwWXA
+
+https://www.youtube.com/watch?v=cHXbYLNa0qQ
+
+https://dgraph.io/tour/
+
 # Introduction
 Following are features of DGraph
 - Open source
@@ -7,6 +14,11 @@ Following are features of DGraph
 ## Installation for local development
 ```
 docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:latest
+```
+Following are URLs for local development
+```
+Ratel UI:  http://localhost:8000/
+DGraph HTTP: http://localhost:8080/
 ```
 ## Nodes and Edges
 - In a Graph Database, concepts or entities are represented as nodes. 
@@ -18,8 +30,9 @@ docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:lat
 - Karthic follows Jessica. The follows edge between them represents their relationship. 
 - The edge connecting two nodes is also called a predicate in Dgraph, although this one points to another node rather than a string or an integer.
 
-
-
+![](SubjectPredicate.png)
+![](data-modeling.png)
+![](data-storage-key-val.png)
 
 ## Dgraph playground
 https://play.dgraph.io/
